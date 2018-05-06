@@ -77,11 +77,11 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 # Set zsh as default shell
 chsh -s /bin/zsh
 
+# install extension for VS Code
 function installvs() {
   code --install-extension "${@}" 2> /dev/null
 }
 
-# install extension for VS Code
 # https://codeburst.io/top-javascript-vscode-extensions-for-faster-development-c687c39596f5
 installvs emmanuelbeziat.vscode-great-icons 
 installvs dracula-theme.theme-dracula
