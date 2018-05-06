@@ -66,8 +66,8 @@ cd fonts
 sh -c ./install.sh
 cd ~/tmp && rm -rf ./fonts
 
-# Fira Code: monospaced font with programming ligatures: https://github.com/tonsky/FiraCode
-# VS Code Instructions: https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions
+# Fira Code: monospaced font with programming ligatures
+# https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions
 brew tap caskroom/fonts
 brew cask install font-fira-code
 
@@ -76,3 +76,21 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 # Set zsh as default shell
 chsh -s /bin/zsh
+
+function installvs() {
+  code --install-extension "${@}" 2> /dev/null
+}
+
+# install extension for VS Code
+# https://codeburst.io/top-javascript-vscode-extensions-for-faster-development-c687c39596f5
+installvs emmanuelbeziat.vscode-great-icons 
+installvs dracula-theme.theme-dracula
+installvs CoenraadS.bracket-pair-colorizer
+installvs oderwat.indent-rainbow
+installvs esbenp.prettier-vscode
+installvs WallabyJs.quokka-vscode
+installvs xabikos.JavaScriptSnippets # ES6
+installvs humao.rest-client
+installvs formulahendry.auto-close-tag
+installvs formulahendry.auto-rename-tag
+installvs SirTori.indenticator
