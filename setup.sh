@@ -94,3 +94,4 @@ installvs humao.rest-client
 installvs formulahendry.auto-close-tag
 installvs formulahendry.auto-rename-tag
 installvs SirTori.indenticator
+installvs abusaidm.html-snippets # HTML5
