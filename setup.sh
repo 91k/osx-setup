@@ -18,9 +18,7 @@ brew install tldr # friendlier man alternative
 
 # Mac App Store
 brew install mas # command line interface
-mas install 1284863847 # Unsplash Wallpapers
 mas install 497799835 # Xcode
-mas install 1176624652 # Translatium https://github.com/quanglam2807/translatium
 
 brew tap caskroom/cask
 brew tap caskroom/versions
@@ -38,15 +36,11 @@ installcask vlc
 installcask transmission
 installcask libreoffice
 installcask cakebrew
-installcask spectacle
 
 # other
 installcask spotify
-installcask toggl # tracking system
-installcask notion
 installcask imageoptim
 installcask github # gui
-installcask astrill # vpn
 
 # browsers
 installcask chromium
