@@ -31,19 +31,16 @@ function installcask() {
 installcask telegram-desktop
 installcask day-o # enhances default time widget in topbar
 installcask teamviewer
-installcask ccleaner
 installcask vlc
 installcask transmission
-installcask libreoffice
 installcask cakebrew
 
 # other
 installcask spotify
-installcask imageoptim
 installcask github # gui
 
 # browsers
-installcask chromium
+installcask google-chrome
 installcask firefoxdeveloperedition
 
 # editors
@@ -63,7 +60,7 @@ cd ~/tmp && rm -rf ./fonts
 # Fira Code: monospaced font with programming ligatures
 # https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions
 brew tap caskroom/fonts
-brew cask install font-fira-code
+installcask font-fira-code
 
 # Install Oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
