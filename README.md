@@ -1,7 +1,7 @@
 # Initial OS X setup
 
 ```
-bash -c "`curl -L https://raw.githubusercontent.com/roman-kosov/osx-setup/master/setup.sh`"
+bash -c "`curl -L https://raw.githubusercontent.com/91k/osx-setup/master/setup.sh`"
 ```
 
 # VS Code config
