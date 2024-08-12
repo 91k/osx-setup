@@ -3,15 +3,22 @@
 # brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# homebrew в $PATH
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 brew update
 brew upgrade
 
 # git
 brew install git
 
+# nodejs, npm
+brew install node
+
 # CLI for Mac App Store
 brew install mas
-mas install 497799835 # Xcode
+mas install 497799835 # xcode
 mas install 946399090 # telegram lite
 
 # install apps via homebrew
